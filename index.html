@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Víctor Rubio Jornet — PhD Researcher</title>
+  <meta name="description" content="Academic profile of Víctor Rubio Jornet, PhD researcher in data privacy and machine learning at Universitat Politècnica de Catalunya (UPC).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">V. <span>Rubio-Jornet</span></a>
+      <button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('open')" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar-links">
+        <li><a href="index.html" class="active">About</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-photo">
+        <!-- Replace the placeholder below with: <img src="photo.jpg" alt="Víctor Rubio Jornet"> -->
+        <img src="photo.jpg" alt="Víctor Rubio Jornet">
+      </div>
+      <div class="hero-text">
+        <h1>Víctor Rubio Jornet</h1>
+        <p class="subtitle">PhD Candidate in Network Engineering</p>
+        <p class="affiliation">Universitat Politècnica de Catalunya (UPC) — Barcelona, Spain</p>
+        <div class="hero-links">
+          <a href="mailto:victor.rubio.jornet@upc.edu">Email</a>
+          <a href="https://orcid.org/0009-0003-5977-2419" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://github.com/VictorRubio98" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/victor-rubio-jornet-6a1636180/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- About / Bio -->
+    <section class="section fade-in">
+      <h2 class="section-title">About Me</h2>
+      <div class="card">
+        <p>Víctor Rubio Jornet is a PhD researcher in Network Engineering at the Universitat Politècnica de Catalunya (UPC), Barcelona. 
+          His research seeks to <b>study formal privacy guarantees in unstructured data such as trajectories and graphs</b>. 
+          He is a recipient of the Joan Oró doctoral scholarship (AGAUR) and has held a research stay at the University of Edinburgh. 
+          His work draws on differential privacy, generative models, and privacy attacks to bridge the gap between theoretical privacy and its practical deployment.
+        </p>
+      </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="section fade-in">
+      <h2 class="section-title">Research Interests</h2>
+      <div class="card">
+        <p>My research focuses on <strong>protecting unstructured data for machine learning applications with formal privacy guarantees</strong>. I work to research into the balance between data utility and privacy, using: differential privacy, and synthetic data generation mainly in graphs and trajectories. Key topics include:</p>
+        <br>
+        <div class="skill-tags">
+          <span class="skill-tag">Differential Privacy</span>
+          <span class="skill-tag">Synthetic Data Generation</span>
+          <span class="skill-tag">Trajectory Privacy</span>
+          <span class="skill-tag">Graph Privacy</span>
+          <span class="skill-tag">Membership Inference Attacks</span>
+          <span class="skill-tag">Generative Models</span>
+          <span class="skill-tag">Machine Learning</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Highlights -->
+    <section class="section fade-in">
+      <h2 class="section-title">Highlights</h2>
+      <div class="skills-grid">
+        <div class="card">
+          <h3>Current Position</h3>
+          <p class="institution">PhD Researcher — UPC</p>
+          <p>Working on privacy guarantees for unstructured data in ML applications, funded by the Joan Oró doctoral scholarship.</p>
+        </div>
+        <div class="card">
+          <h3>Research Stay</h3>
+          <p class="institution">University of Edinburgh - School of Informatics</p>
+          <p>3-month stay (May–Jul 2025) under Dr. Marc Juarez.</p>
+        </div>
+        <div class="card">
+          <h3>Award</h3>
+          <p class="institution">Best Thesis — NErD</p>
+          <p>Best Master's thesis award at Network Engineering Day (NErD) for my work on differential privacy in generative models.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Víctor Rubio Jornet · Built with GitHub Pages</p>
+  </footer>
+
+  <script>
+    // Fade-in animation on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

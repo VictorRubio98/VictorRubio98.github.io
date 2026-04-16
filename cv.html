@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV — Víctor Rubio Jornet</title>
+  <meta name="description" content="Curriculum Vitae of Víctor Rubio Jornet — education, skills, awards, and professional service.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">V. <span>Rubio-Jornet</span></a>
+      <button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('open')" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="cv.html" class="active">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-inner">
+      <h1>Curriculum Vitae</h1>
+      <p>Education, skills, awards, and professional activities.</p>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Education -->
+    <section class="section fade-in">
+      <h2 class="section-title">Education</h2>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>PhD in Network Engineering</h3>
+            <p class="institution">Universitat Politècnica de Catalunya (UPC)</p>
+          </div>
+          <span class="date">Mar 2024 – Present</span>
+        </div>
+        <p><strong>Thesis:</strong> Protecting unstructured data for machine learning applications with formal privacy guarantees.</p>
+        <p><strong>Supervisors:</strong> <a href="https://sites.google.com/site/jordiforne10">Jordi Forné*</a>, <a href="https://javier-parra.staff.upc.edu/index.html">Javier Parra-Arnau</a>.</p>
+        <p><strong>Research stay:</strong> University of Edinburgh - School of Informatics (May–Jul 2025) under Dr. Marc Juarez.</p>
+        <p><strong>Funding:</strong> Joan Oró doctoral scholarship (2024 FI-1 00762), AGAUR.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>MSc in Advanced Telecommunications Technologies (MATT)</h3>
+            <p class="institution">Universitat Politècnica de Catalunya (UPC)</p>
+          </div>
+          <span class="date">2022 – 2023</span>
+        </div>
+        <p><strong>Specialization:</strong> Signal Processing and AV Systems</p>
+        <p><strong>Final grade:</strong> 8.59 / 10</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>BSc in Telecommunications Engineering</h3>
+            <p class="institution">Universitat Politècnica de Catalunya (UPC)</p>
+          </div>
+          <span class="date">2016 – 2020</span>
+        </div>
+        <p><strong>Specialization:</strong> Network Engineering</p>
+        <p><strong>Final grade:</strong> 7.312 / 10</p>
+      </div>
+    </section>
+
+    <!-- Research Experience -->
+    <section class="section fade-in">
+      <h2 class="section-title">Research Experience</h2>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Research Assistant — <a href="https://siscom.upc.edu/en">SICOM Group</a></h3>
+            <p class="institution">Universitat Politècnica de Catalunya (UPC)</p>
+          </div>
+          <span class="date">Feb 2023 – Mar 2024</span>
+        </div>
+        <p>Pre-doctoral research on data privacy topics, within the same research group and area as the current PhD.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Research Intern — <a href="https://imatge.upc.edu/web/projects/digipatics-projecte-doptimitzacio-del-diagnostic-anatomopatoleg-en-xarxa-als-hospitals-de"> Image Processing Group (DigiPatICS project)</a></h3>
+            <p class="institution">Universitat Politècnica de Catalunya (UPC)</p>
+          </div>
+          <span class="date">During MSc</span>
+        </div>
+        <p>Research on deep learning for registration of histopathological images for breast cancer detection, under the guidance of Prof. Dr. Josep Ramon Casas Pla.</p>
+      </div>
+    </section>
+
+    <!-- Awards & Grants -->
+    <section class="section fade-in">
+      <h2 class="section-title">Awards &amp; Grants</h2>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Joan Oró Doctoral Scholarship</h3>
+            <p class="institution">AGAUR — Agència de Gestió d'Ajuts Universitaris i de Recerca</p>
+          </div>
+          <span class="date">2024</span>
+        </div>
+        <p>Doctoral fellowship (ref. 2024 FI-1 00762) funding the PhD research programme.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Best Master's Thesis Award</h3>
+            <p class="institution">Network Engineering Day (NErD)</p>
+          </div>
+        </div>
+        <p>Awarded for the Master's thesis on adding differential privacy guarantees in generative models.</p>
+      </div>
+    </section>
+
+    <!-- Technical Skills -->
+    <section class="section fade-in">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="card skill-category">
+          <h4>Programming Languages</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">LaTeX</span>
+          </div>
+        </div>
+        <div class="card skill-category">
+          <h4>ML &amp; Privacy Frameworks</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Opacus</span>
+            <span class="skill-tag">TensorFlow Privacy</span>
+          </div>
+        </div>
+        <div class="card skill-category">
+          <h4>Data &amp; Geospatial</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">GeoPandas</span>
+            <span class="skill-tag">NetworkX</span>
+            <span class="skill-tag">OSMnx</span>
+          </div>
+        </div>
+        <div class="card skill-category">
+          <h4>Tools &amp; Simulation</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">SUMO</span>
+            <span class="skill-tag">OpenStreetMap</span>
+            <span class="skill-tag">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Service -->
+    <section class="section fade-in">
+      <h2 class="section-title">Professional Service</h2>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Program Committee &amp; Reviewer — PE-WASUN</h3>
+          </div>
+          <span class="date">2025 – Present</span>
+        </div>
+        <p>Committee member (WEB/Poster Chair), and reviewer for the PE-WASUN conference (<a href="http://pewasun.upc.edu/PEWASUN2025/">2025</a> and <a href="http://pewasun.upc.edu/PEWASUN2026/Pewasun2026.html">2026</a> editions).</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Reviewer — <a href="https://www.sciencedirect.com/journal/computer-networks">Computer Networks</a></h3>
+            <p class="institution"><a href="https://www.sciencedirect.com/journal/computer-networks" target="_blank" rel="noopener">Elsevier — Computer Networks</a></p>
+          </div>
+        </div>
+        <p>Peer reviewer for the journal Computer Networks.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Organizing Committee — JNIC 2026</h3>
+            <p class="institution"><a href="https://www.incibe.es/eventos/JNIC/JNIC2026">XI Jornadas Nacionales de Investigación en Ciberseguridad</a></p>
+          </div>
+          <span class="date">2026</span>
+        </div>
+        <p>Member of the organizing committee for the national cybersecurity research conference.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Conference Presentations</h3>
+          </div>
+        </div>
+        <p>Presented research at RECSI 2024 (XVIII edition) and RECSI 2026 (XIX edition) — the Spanish conference on Cryptology and Information Security.</p>
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="section fade-in">
+      <h2 class="section-title">Languages</h2>
+      <div class="lang-grid">
+        <div class="lang-item">
+          <p class="lang-name">Spanish</p>
+          <p class="lang-level">Native</p>
+        </div>
+        <div class="lang-item">
+          <p class="lang-name">Catalan</p>
+          <p class="lang-level">Native</p>
+        </div>
+        <div class="lang-item">
+          <p class="lang-name">English</p>
+          <p class="lang-level">C1</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- References -->
+    <section class="section fade-in">
+      <h2 class="section-title">References</h2>
+      <div class="ref-grid">
+        <div class="ref-item">
+          Dr. Javier Parra-Arnau
+          <p class="ref-role">PhD Supervisor, UPC</p>
+        </div>
+        <div class="ref-item">
+          Dr. Jordi Forné
+          <p class="ref-role">PhD Supervisor, UPC</p>
+        </div>
+        <div class="ref-item">
+          Dr. Mónica Aguilar Igartua
+          <p class="ref-role">UPC</p>
+        </div>
+        <div class="ref-item">
+          Dr. Marc Juarez
+          <p class="ref-role">University of Edinburgh</p>
+        </div>
+        <div class="ref-item">
+          Dr. Josep Ramon Casas Pla
+          <p class="ref-role">UPC</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Víctor Rubio Jornet · Built with GitHub Pages</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

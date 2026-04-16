@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching — Víctor Rubio Jornet</title>
+  <meta name="description" content="Teaching and mentoring experience of Víctor Rubio Jornet at Universitat Politècnica de Catalunya (UPC).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">V. <span>Rubio-Jornet</span></a>
+      <button class="hamburger" onclick="document.querySelector('.navbar-links').classList.toggle('open')" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html" class="active">Teaching</a></li>
+        <li><a href="cv.html">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="page-header-inner">
+      <h1>Teaching &amp; Mentoring</h1>
+      <p>Courses, thesis supervision, and educational projects.</p>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Teaching -->
+    <section class="section fade-in">
+      <h2 class="section-title">Teaching</h2>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Data Privacy — Lab Instructor</h3>
+            <p class="institution">MSc in Cybersecurity (MCYBER), UPC</p>
+          </div>
+          <span class="date">Feb 2026 – Present</span>
+        </div>
+        <p>Teaching the laboratory sessions of the Data Privacy course in the Cybersecurity master's programme.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Introduction to ICT Engineering — Substitute Teacher</h3>
+            <p class="institution">BSc in Telecommunications Engineering, UPC</p>
+          </div>
+          <span class="date">Previous</span>
+        </div>
+        <p>Substitute teacher in a project-based class where students build a Remotely Operated Underwater Vehicle (ROUV). The project encompasses mechanical and electrical design, software development, and communications system engineering.</p>
+      </div>
+    </section>
+
+    <!-- Thesis Supervision -->
+    <section class="section fade-in">
+      <h2 class="section-title">Thesis Supervision</h2>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Master's Thesis — Sole Supervisor</h3>
+            <p class="institution">Current</p>
+          </div>
+          <span class="date">Ongoing</span>
+        </div>
+        <p>Supervising a Master's thesis on privacy in graphs.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Master's Thesis — Co-supervisor</h3>
+            <p class="institution">Completed</p>
+          </div>
+          <span class="date">Completed</span>
+        </div>
+        <p>Co-supervised one Master's thesis related to privacy in synthetic trajectories.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h3>Bachelor's Theses — Co-supervisor</h3>
+            <p class="institution">Completed</p>
+          </div>
+          <span class="date">Completed</span>
+        </div>
+        <p>Co-supervised three Bachelor's theses, all related to privacy in synthetic trajectories.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Víctor Rubio Jornet · Built with GitHub Pages</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
