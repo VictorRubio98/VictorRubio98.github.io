@@ -380,6 +380,10 @@ img {
   margin-top: 0.5rem;
 }
 
+.pub-footer .pub-badge {
+  margin-top: 0;
+}
+
 .pub-links {
   display: flex;
   gap: 0.75rem;
