@@ -373,6 +373,30 @@ img {
   color: #92400e;
 }
 
+.pub-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+}
+
+.pub-links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.pub-links a {
+  color: var(--teal-600, #0d9488);
+  display: inline-flex;
+  align-items: center;
+  transition: opacity 0.2s;
+  opacity: 0.75;
+}
+
+.pub-links a:hover {
+  opacity: 1;
+}
+
 /* ===== Skills Grid ===== */
 .skills-grid {
   display: grid;
