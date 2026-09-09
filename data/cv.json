@@ -1,0 +1,117 @@
+{
+  "education": [
+    {
+      "title": "PhD in Network Engineering",
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "date": "Mar 2024 – Present",
+      "details": [
+        "<strong>Thesis:</strong> Protecting unstructured data for machine learning applications with formal privacy guarantees.",
+        "<strong>Supervisors:</strong> <a href=\"https://sites.google.com/site/jordiforne10\">Jordi Forné*</a>, <a href=\"https://javier-parra.staff.upc.edu/index.html\">Javier Parra-Arnau</a>.",
+        "<strong>Research stay:</strong> University of Edinburgh - School of Informatics (May–Jul 2025) under Dr. Marc Juarez.",
+        "<strong>Funding:</strong> Joan Oró doctoral scholarship (2024 FI-1 00762), AGAUR."
+      ]
+    },
+    {
+      "title": "MSc in Advanced Telecommunications Technologies (MATT)",
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "date": "2022 – 2023",
+      "details": [
+        "<strong>Specialization:</strong> Signal Processing and AV Systems",
+        "<strong>Final grade:</strong> 8.59 / 10"
+      ]
+    },
+    {
+      "title": "BSc in Telecommunications Engineering",
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "date": "2016 – 2020",
+      "details": [
+        "<strong>Specialization:</strong> Network Engineering",
+        "<strong>Final grade:</strong> 7.312 / 10"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "title": "Research Assistant — <a href=\"https://siscom.upc.edu/en\">SISCOM Group</a>",
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "date": "Feb 2023 – Mar 2024",
+      "description": "Pre-doctoral research on data privacy topics, within the same research group and area as the current PhD."
+    },
+    {
+      "title": "Research Intern — <a href=\"https://imatge.upc.edu/web/projects/digipatics-projecte-doptimitzacio-del-diagnostic-anatomopatoleg-en-xarxa-als-hospitals-de\">Image Processing Group (DigiPatICS project)</a>",
+      "institution": "Universitat Politècnica de Catalunya (UPC)",
+      "date": "During MSc",
+      "description": "Research on deep learning for registration of histopathological images for breast cancer detection, under the guidance of Prof. Dr. Josep Ramon Casas Pla."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Joan Oró Doctoral Scholarship",
+      "institution": "AGAUR — Agència de Gestió d'Ajuts Universitaris i de Recerca",
+      "date": "2024",
+      "description": "Doctoral fellowship (ref. 2024 FI-1 00762) funding the PhD research programme."
+    },
+    {
+      "title": "Best Master's Thesis Award",
+      "institution": "Network Engineering Day (NErD)",
+      "date": null,
+      "description": "Awarded for the Master's thesis on adding differential privacy guarantees in generative models."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "tags": ["Python", "C", "Java", "LaTeX"]
+    },
+    {
+      "category": "ML & Privacy Frameworks",
+      "tags": ["PyTorch", "TensorFlow", "Opacus", "TensorFlow Privacy"]
+    },
+    {
+      "category": "Data & Geospatial",
+      "tags": ["NumPy", "Pandas", "GeoPandas", "NetworkX", "OSMnx"]
+    },
+    {
+      "category": "Tools & Simulation",
+      "tags": ["SUMO", "OpenStreetMap", "VS Code"]
+    }
+  ],
+  "service": [
+    {
+      "title": "Program Committee & Reviewer — PE-WASUN",
+      "institution": null,
+      "date": "2025 – Present",
+      "description": "Committee member (WEB/Poster Chair), and reviewer for the PE-WASUN conference (<a href=\"http://pewasun.upc.edu/PEWASUN2025/\">2025</a> and <a href=\"http://pewasun.upc.edu/PEWASUN2026/Pewasun2026.html\">2026</a> editions)."
+    },
+    {
+      "title": "Reviewer — <a href=\"https://www.sciencedirect.com/journal/computer-networks\">Computer Networks</a>",
+      "institution": "<a href=\"https://www.sciencedirect.com/journal/computer-networks\" target=\"_blank\" rel=\"noopener\">Elsevier — Computer Networks</a>",
+      "date": "2026",
+      "description": "Peer reviewer for the journal Computer Networks."
+    },
+    {
+      "title": "Organizing Committee — JNIC 2026",
+      "institution": "<a href=\"https://www.incibe.es/eventos/JNIC/JNIC2026\">XI Jornadas Nacionales de Investigación en Ciberseguridad</a>",
+      "date": "2026",
+      "description": "Member of the organizing committee for the national cybersecurity research conference."
+    },
+    {
+      "title": "Conference Presentations",
+      "institution": null,
+      "date": null,
+      "description": "Presented research at RECSI 2024 (XVIII edition) and RECSI 2026 (XIX edition) — the Spanish conference on Cryptology and Information Security."
+    }
+  ],
+  "languages": [
+    { "name": "Spanish", "level": "Native" },
+    { "name": "Catalan", "level": "Native" },
+    { "name": "English", "level": "C1" }
+  ],
+  "references": [
+    { "name": "Dr. Javier Parra-Arnau", "role": "PhD Supervisor, UPC" },
+    { "name": "Dr. Jordi Forné", "role": "PhD Supervisor, UPC" },
+    { "name": "Dr. Mónica Aguilar Igartua", "role": "UPC" },
+    { "name": "Dr. Marc Juarez", "role": "University of Edinburgh" },
+    { "name": "Dr. Josep Ramon Casas Pla", "role": "UPC" }
+  ]
+}
