@@ -27,7 +27,7 @@
     "webUrl": "https://ieeexplore.ieee.org/abstract/document/11670481",
     "doi": "10.1109/ACCESS.2026.3728159",
     "pdfUrl": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11670481",
-    "bibtexUrl": null
+    "bibtexUrl": "data/bibtex/rubio2026ieeeaccess.bib"
   },
   {
     "type": "journal",
@@ -42,7 +42,7 @@
     "webUrl": "https://www.mdpi.com/2624-6511/9/6/95",
     "doi": "10.3390/smartcities9060095",
     "pdfUrl": "https://www.mdpi.com/2624-6511/9/6/95/pdf",
-    "bibtexUrl": null
+    "bibtexUrl": "data/bibtex/bazan2026mobicugat.bib"
   },
   {
     "type": "conference",
@@ -57,7 +57,7 @@
     "webUrl": "https://cryptull.webs.ull.es/RECSI2026/LibrodeActasRECSI2026.pdf",
     "doi": null,
     "pdfUrl": "https://cryptull.webs.ull.es/RECSI2026/LibrodeActasRECSI2026.pdf",
-    "bibtexUrl": null
+    "bibtexUrl": "data/bibtex/rubio2026recsi.bib"
   },
   {
     "type": "conference",
@@ -72,6 +72,6 @@
     "webUrl": "https://buleria.unileon.es/handle/10612/24551",
     "doi": "10.18002/recsi",
     "pdfUrl": "https://buleria.unileon.es/bitstreams/29f5bfdc-749b-4d5b-9020-707f6187b5a9/download",
-    "bibtexUrl": null
+    "bibtexUrl": "data/bibtex/rubio2024recsi.bib"
   }
 ]
