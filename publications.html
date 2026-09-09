@@ -84,7 +84,7 @@
       const hasLinks = pub.pdfUrl || pub.bibtexUrl;
       let linksHtml = '';
       if (pub.pdfUrl) linksHtml += '<a href="' + pub.pdfUrl + '" target="_blank" rel="noopener" title="PDF">' + pdfIcon + '</a>';
-      if (pub.bibtexUrl) linksHtml += '<a href="' + pub.bibtexUrl + '" target="_blank" rel="noopener" title="BibTeX">' + bibIcon + '</a>';
+      if (pub.bibtexUrl) linksHtml += '<a href="' + pub.bibtexUrl + '" download title="BibTeX">' + bibIcon + '</a>';
 
       let footerHtml;
       if (hasLinks) {
