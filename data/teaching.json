@@ -1,0 +1,18 @@
+[
+  {
+    "course": "Data Privacy",
+    "role": "Lab Instructor",
+    "degree": "MSc in Cybersecurity (MCYBER)",
+    "institution": "UPC",
+    "date": "Feb 2026 – Present",
+    "description": "Teaching the laboratory sessions of the Data Privacy course in the Cybersecurity master's programme."
+  },
+  {
+    "course": "Introduction to ICT Engineering",
+    "role": "Substitute Teacher",
+    "degree": "BSc in Telecommunications Engineering",
+    "institution": "UPC",
+    "date": "Previous",
+    "description": "Substitute teacher in a project-based class where students build a Remotely Operated Underwater Vehicle (ROUV). The project encompasses mechanical and electrical design, software development, and communications system engineering."
+  }
+]

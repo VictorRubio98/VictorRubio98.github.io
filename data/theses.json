@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Privacy in graphs",
+    "student": null,
+    "degree": "Master's Thesis",
+    "role": "Sole Supervisor",
+    "institution": "Universitat Politècnica de Catalunya (UPC)",
+    "year": null,
+    "status": "ongoing",
+    "description": "Supervising a Master's thesis on privacy in graphs."
+  },
+  {
+    "title": "Privacy in synthetic trajectories",
+    "student": null,
+    "degree": "Master's Thesis",
+    "role": "Co-supervisor",
+    "institution": "Universitat Politècnica de Catalunya (UPC)",
+    "year": null,
+    "status": "completed",
+    "description": "Co-supervised one Master's thesis related to privacy in synthetic trajectories."
+  },
+  {
+    "title": "Privacy in synthetic trajectories",
+    "student": null,
+    "degree": "Bachelor's Theses",
+    "role": "Co-supervisor",
+    "institution": "Universitat Politècnica de Catalunya (UPC)",
+    "year": null,
+    "status": "completed",
+    "count": 3,
+    "description": "Co-supervised three Bachelor's theses, all related to privacy in synthetic trajectories."
+  }
+]

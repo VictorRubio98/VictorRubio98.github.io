@@ -44,57 +44,13 @@
     <!-- Journal Articles -->
     <section class="section fade-in">
       <h2 class="section-title">Journal Articles</h2>
-
-      <div class="card pub-card">
-        <p class="pub-title">Can Trajectory Generative Models Leak Private Coordinate Information?</p>
-        <p class="pub-authors">Rubio-Jornet, V., Juarez, M., Parra-Arnau, J., &amp; Forné, J.</p>
-        <p class="pub-venue">Engineering Applications of Artificial Intelligence, 2026</p>
-        <span class="pub-badge review">Under Review</span>
-      </div>
-      
-      <div class="card pub-card">
-        <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/11670481">On the adaptation of trajectory generative models to enforce differential privacy through gradient perturbation.</a></p>
-        <p class="pub-authors">Rubio-Jornet, V., Parra-Arnau, J., &amp; Forné, J.</p>
-        <p class="pub-venue">IEEE Access 2026 Volume 14</p>
-        <span class="pub-badge published">Published</span>
-        <div class="pub-links">
-            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11670481" target="_blank" rel="noopener" title="PDF"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><text x="7.5" y="17" font-size="6" font-weight="700" stroke="none" fill="currentColor" font-family="sans-serif">PDF</text></svg></a>
-          </div>
-      </div>
-
-      <div class="card pub-card">
-        <p class="pub-title"><a href="https://www.mdpi.com/2624-6511/9/6/95" target="_blank" rel="noopener">MobiCugat: City-Scale Traffic Assessment from Low-Emission Zone Cameras</a></p>
-        <p class="pub-authors">Bazán-Guillén, A., Rubio-Jornet, V., Aguilar Igartua, M., Montal, J., Vives, M., &amp; Muratet, A.</p>
-        <p class="pub-venue">Smart Cities 2026 Volume 9, Issue 6</p>
-        <div class="pub-footer">
-          <span class="pub-badge published">Published</span>
-          <div class="pub-links">
-            <a href="https://www.mdpi.com/2624-6511/9/6/95/pdf" target="_blank" rel="noopener" title="PDF"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><text x="7.5" y="17" font-size="6" font-weight="700" stroke="none" fill="currentColor" font-family="sans-serif">PDF</text></svg></a>
-            <!--
-            <a href="#" target="_blank" rel="noopener" title="BibTeX"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z"/><text x="8" y="14" font-size="6" font-weight="700" stroke="none" fill="currentColor" font-family="sans-serif">Bib</text></svg></a>
-            -->
-          </div>
-        </div>
-      </div>
+      <div id="journal-articles"></div>
     </section>
 
     <!-- Conference Papers -->
     <section class="section fade-in">
       <h2 class="section-title">Conference Papers</h2>
-
-      <div class="card pub-card">
-        <p class="pub-title"><a href="https://cryptull.webs.ull.es/RECSI2026/LibrodeActasRECSI2026.pdf">Análisis de mecanismos de privacidad basados en la perturbación de los enlaces en grafos</a></p>
-        <p class="pub-authors">Rubio-Jornet, V., Parra-Arnau, J., &amp; Forné, J.</p>
-        <p class="pub-venue">Actas de la XIX Reunión Española Sobre Criptología y Seguridad de la Información (RECSI 2026), pp. 485–490</p>
-        <span class="pub-badge published">Published</span>
-      </div>
-
-      <div class="card pub-card">
-        <p class="pub-title"><a href="https://buleria.unileon.es/handle/10612/24551">Ataque de inferencia de membresía a trayectorias</a></p>
-        <p class="pub-authors">Rubio-Jornet, V., Irurre Martínez, P., Roca Oliver, R., Forné-Muñoz, J., &amp; Parra-Arnau, J.</p>
-        <p class="pub-venue">XVIII Reunión Española Sobre Criptología y Seguridad de la Información (RECSI 2024), pp. 313–317</p>
-        <span class="pub-badge published">Published</span>
-      </div>
+      <div id="conference-papers"></div>
     </section>
 
   </main>
@@ -105,6 +61,55 @@
   </footer>
 
   <script>
+    const pdfIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><text x="7.5" y="17" font-size="6" font-weight="700" stroke="none" fill="currentColor" font-family="sans-serif">PDF</text></svg>';
+    const bibIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z"/><text x="8" y="14" font-size="6" font-weight="700" stroke="none" fill="currentColor" font-family="sans-serif">Bib</text></svg>';
+
+    function buildVenue(pub) {
+      let v = pub.venue;
+      if (pub.year) v += ' ' + pub.year;
+      if (pub.volume) v += ' Volume ' + pub.volume;
+      if (pub.issue) v += ', Issue ' + pub.issue;
+      if (pub.pages) v += ', pp. ' + pub.pages;
+      return v;
+    }
+
+    function renderPub(pub) {
+      const titleHtml = pub.webUrl
+        ? '<a href="' + pub.webUrl + '" target="_blank" rel="noopener">' + pub.title + '</a>'
+        : pub.title;
+
+      const badgeClass = pub.status === 'published' ? 'published' : 'review';
+      const badgeText = pub.status === 'published' ? 'Published' : 'Under Review';
+
+      const hasLinks = pub.pdfUrl || pub.bibtexUrl;
+      let linksHtml = '';
+      if (pub.pdfUrl) linksHtml += '<a href="' + pub.pdfUrl + '" target="_blank" rel="noopener" title="PDF">' + pdfIcon + '</a>';
+      if (pub.bibtexUrl) linksHtml += '<a href="' + pub.bibtexUrl + '" target="_blank" rel="noopener" title="BibTeX">' + bibIcon + '</a>';
+
+      let footerHtml;
+      if (hasLinks) {
+        footerHtml = '<div class="pub-footer"><span class="pub-badge ' + badgeClass + '">' + badgeText + '</span><div class="pub-links">' + linksHtml + '</div></div>';
+      } else {
+        footerHtml = '<span class="pub-badge ' + badgeClass + '">' + badgeText + '</span>';
+      }
+
+      return '<div class="card pub-card">'
+        + '<p class="pub-title">' + titleHtml + '</p>'
+        + '<p class="pub-authors">' + pub.authors + '</p>'
+        + '<p class="pub-venue">' + buildVenue(pub) + '</p>'
+        + footerHtml
+        + '</div>';
+    }
+
+    fetch('data/publications.json')
+      .then(r => r.json())
+      .then(pubs => {
+        document.getElementById('journal-articles').innerHTML =
+          pubs.filter(p => p.type === 'journal').map(renderPub).join('');
+        document.getElementById('conference-papers').innerHTML =
+          pubs.filter(p => p.type === 'conference').map(renderPub).join('');
+      });
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) entry.target.classList.add('visible');

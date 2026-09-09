@@ -1,0 +1,56 @@
+[
+  {
+    "name": "MobiCugat",
+    "code": "C-13469",
+    "description": "MobiCugat is a city-scale urban mobility study commissioned by the Sant Cugat City Council. The project performs traffic assessment using data from low-emission zone cameras, integrating it with the SUMO traffic simulator via the RUTGe framework for comprehensive transportation analysis.",
+    "institution": "Urban mobility study for the Local Council of Sant Cugat",
+    "partners": [
+      "Universitat Politècnica de Catalunya (UPC)",
+      "HoundLine",
+      "Ajuntament de Sant Cugat"
+    ],
+    "url": "https://futur.upc.edu/43348629",
+    "startDate": "Sep 2025",
+    "endDate": "Dec 2026"
+  },
+  {
+    "name": "DISCOVERY",
+    "code": "PID2023-148716OB-C32",
+    "description": "DISCOVERY is a coordinated national research project focusing on distributed communication systems that integrate privacy, security, and energy efficiency. The UPC subproject addresses communication network protocols and data privacy, contributing to the development of more efficient, secure, and sustainable distributed digital infrastructures for data-driven services powered by machine learning.",
+    "institution": "DIstributed Smart Communications with Verifiable EneRgy-optimal Yields",
+    "partners": [
+      "Universitat Politècnica de Catalunya (UPC)",
+      "Universidade de Vigo (UVigo)",
+      "Universidad Carlos III de Madrid (UC3M)"
+    ],
+    "url": "https://discovery.uvigo.gal/",
+    "startDate": "Sep 2024",
+    "endDate": "Aug 2027"
+  },
+  {
+    "name": "MOBILYTICS",
+    "code": "TED2021-129782B-I00",
+    "description": "MOBILYTICS addresses the challenge of enabling AI-based mobility analytics while preserving user privacy. The project develops anonymization techniques — including non-perturbative masking, perturbative masking, and synthetic data generation — for mobility datasets collected by private companies and public entities. A core goal is promoting sustainable urban mobility through privacy-preserving data sharing. Funded by MICIU/AEI and the European Union NextGenerationEU/PRTR.",
+    "institution": "Anonymization Technology for AI-based Analytics of Mobility Data",
+    "partners": [
+      "Universitat Politècnica de Catalunya (UPC)"
+    ],
+    "url": "http://mobilytics.upc.edu/",
+    "startDate": "Nov 2022",
+    "endDate": "May 2025"
+  },
+  {
+    "name": "COMPROMISE",
+    "code": "PID2020-113795RB-C31",
+    "description": "COMPROMISE is a coordinated national project combining knowledge in security, privacy, communication protocols, quality of service, and machine learning. It addresses privacy improvements in network protocols and aims to prevent privacy attacks, protecting communications with mechanisms that balance the trade-off between utility and privacy. Funded by MICIU/AEI.",
+    "institution": "Enhancing Communication Protocols with Machine Learning while Protecting Sensitive Data",
+    "partners": [
+      "Universitat Politècnica de Catalunya (UPC)",
+      "Universidade de Vigo (UVigo)",
+      "Universidad Carlos III de Madrid (UC3M)"
+    ],
+    "url": "http://www.compromise.upc.edu/",
+    "startDate": "Sep 2021",
+    "endDate": "Feb 2025"
+  }
+]
